@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular';
+  yohoo = 'blya kapets';
+  arr = [1, 2, 3];
 }

@@ -7,6 +7,10 @@
   color: black;
 }
 
+.brdcrmb-grey {
+  color: rgb(209, 209, 209);
+}
+
 .brdcrmb:before {
   color: black;
 }
@@ -15,6 +19,13 @@
   color: purple;
 }
 
-.form-bord-control {
-  border: 1px transparent black;
+
+input:focus {
+  border-bottom: none!important;
+  box-shadow: none!important;
+}
+
+.search-field {
+  border: 3px solid  rgb(209, 209, 209);
+  height: 65px;
 }

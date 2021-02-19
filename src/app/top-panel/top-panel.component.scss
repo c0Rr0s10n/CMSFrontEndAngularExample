@@ -37,19 +37,39 @@ input:focus {
   margin-left: 25px;
 }
 
+// .notification-badge {
+//   position: relative;
+//   right: 5px;
+//   top: -20px;
+//   background-color: #f5f1f2;
+//   background-color: #cc002c;
+//   margin: 0 -.8em;
+//   border-radius: 50%;
+//   padding: 2px 2px;
+// }
+
 .notification-badge {
-  position: relative;
-  /*right: -12px;
-  top: -84px;*/
-  color: #ffffff;
-  background-color: #FF4081;
-  // margin: 0 -.8em;
+  position:relative;
+  padding:2px 6px;
+  background-color: #f32a56;
+  color: #fff;
+  bottom: 12px;
+  left: 12px;
   border-radius: 50%;
-  padding: 4px 5px;
-  font-family: "Roboto";
+  font-size: 12px;
 }
 
-.notification-icon--fixed {
-  max-height: 60px;
-  width: 60px;
+.notif{
+  position: absolute;
 }
+
+
+.no-hover {
+  color: black;
+}
+
+.no-hover:hover {
+  background-color: transparent;
+}
+
+

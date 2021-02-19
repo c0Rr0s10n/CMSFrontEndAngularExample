@@ -4,7 +4,49 @@
   padding-right: 25px;
 }
 
+.name {
+  font-size: 22px;
+}
+
 .job {
-  font-size: 15px;
+  font-size: 18px;
   color: rgb(100, 100, 100);
+}
+
+.status {
+  position: absolute;
+  margin-top: 5px;
+  font-weight: 500;
+}
+
+.add-info {
+  position: absolute;
+  color: purple;
+  margin-top: 17px;
+}
+
+input {
+  font-size: 15px;
+  margin-top: 0%;
+  height: 25px;
+}
+
+input:focus {
+  border-bottom: none!important;
+  box-shadow: none!important;
+  color: rgb(173, 173, 173);
+}
+
+.input-icon {
+  position: relative;
+}
+
+#address {
+  font-weight: 500;
+  color: purple;
+}
+
+.quote-button {
+  font-weight: 600;
+  color: rgb(253, 194, 0);
 }

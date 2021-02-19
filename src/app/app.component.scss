@@ -1,0 +1,10 @@
+.not-nav {
+  display: block;
+  padding-left: 300px;
+}
+
+@media only screen and (max-width : 992px) {
+  .not-nav {
+    padding-left: 0;
+  }
+}

@@ -68,3 +68,13 @@ margin-right: 10px;
   color: rgb(100, 100, 100);
   font-size: 15px;
 }
+
+.tab-text {
+  font-weight: 700;
+}
+
+.tab-active {
+  border-bottom: 5px solid rgb(89, 0, 190);
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}

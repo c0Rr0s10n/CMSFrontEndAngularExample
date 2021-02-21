@@ -49,4 +49,22 @@ input:focus {
 .quote-button {
   font-weight: 600;
   color: rgb(253, 194, 0);
+  text-replace: color 0.5s background-color 0.5s;
+}
+
+
+.social-icon {
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.top-content {
+  margin: 0%;
+  height: 75px;
+}
+
+.social-text {
+  font-weight: 600;
+  color: rgb(100, 100, 100);
+  font-size: 15px;
 }

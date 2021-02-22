@@ -1,3 +1,4 @@
+import { NONE_TYPE } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -14,7 +15,12 @@ export class UserInfoComponent implements OnInit {
 
 
   changeTab(event: any) {
-    let tabs = document.querySelectorAll(".tab");
-    event.srcElement.classList.add("tab-active")
+    if (event.srcElement.tagName == "A"){
+      let activeTab = Array.from(document.getElementsByClassName('mat-form-field-infix') as HTMLCollectionOf<HTMLElement>)
+      activeTab[0].classList.remove("tab-active");
+      activeTab[0].style.animation = "deactivation";
+      event.srcElement.classList.add("tab-active")
+
+    }
   }
 }

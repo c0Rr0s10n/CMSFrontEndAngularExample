@@ -1,25 +1,9 @@
-@keyframes activation {
+@keyframes activate {
   from {
-      border-bottom: 0px solid rgb(89, 0, 190);
-      border-bottom-width: 0%;
+  border-bottom: 0px solid purple;
   }
   to {
-      border-bottom: 5px solid rgb(89, 0, 190);
-      border-bottom-left-radius: 2px;
-      border-bottom-right-radius: 2px;
-      border-bottom-width: 100%;
-  }
-}
-@keyframes deactivation {
-  from {
-      border-bottom: 5px solid rgb(89, 0, 190);
-      border-bottom-width: 0%;
-  }
-  to {
-      border-bottom: 0px solid rgb(89, 0, 190);
-      border-bottom-left-radius: 2px;
-      border-bottom-right-radius: 2px;
-      border-bottom-width: 100%;
+  border-bottom: 5px solid purple;
   }
 }
 
@@ -99,9 +83,7 @@ margin-right: 10px;
 }
 
 .tab-active {
-  animation: activation;
+  animation: activate;
   animation-duration: 0.5s;
   animation-fill-mode: forwards;
 }
-
-

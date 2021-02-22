@@ -16,9 +16,10 @@ export class UserInfoComponent implements OnInit {
 
   changeTab(event: any) {
     if (event.srcElement.tagName == "A"){
-      let activeTab = Array.from(document.getElementsByClassName('mat-form-field-infix') as HTMLCollectionOf<HTMLElement>)
-      activeTab[0].classList.remove("tab-active");
-      activeTab[0].style.animation = "deactivation";
+      let activeTab = Array.from(document.getElementsByClassName('tab-active') as HTMLCollectionOf<HTMLElement>)
+      activeTab.forEach(element => {
+        element.classList.remove("tab-active");
+      });
       event.srcElement.classList.add("tab-active")
 
     }

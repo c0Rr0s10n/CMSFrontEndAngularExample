@@ -12,4 +12,9 @@ export class UserInfoComponent implements OnInit {
   ngOnInit(): void {
   }
 
+
+  changeTab(event: any) {
+    let tabs = document.querySelectorAll(".tab");
+    event.srcElement.classList.add("tab-active")
+  }
 }

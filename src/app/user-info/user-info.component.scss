@@ -73,11 +73,15 @@ input:focus {
 }
 
 .tab-active {
-    transition: 0.5s;
+    transition: 0.2s !important;
     border-bottom: 4px solid purple;
+    border-bottom-right-radius: 3%;
+    border-bottom-left-radius: 3%;
+    transition-timing-function: linear;
 }
 
 .tab-deactivated {
-    border-bottom: 0px solid purple;
-    transition: 0.5s;
+    border-bottom: 0px solid white;
+    transition: 0.2s !important;
+    transition-timing-function: linear;
 }

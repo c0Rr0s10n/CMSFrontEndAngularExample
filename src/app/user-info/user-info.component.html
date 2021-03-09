@@ -1,4 +1,4 @@
-<div class="row content">
+<div class="row content" style="margin-bottom: 0px;">
     <div class="col s1">
         <img width="90px" class="circle z-depth-3" src="../../assets/img/random-pchuvak.jpg" alt="">
     </div>
@@ -59,7 +59,7 @@
             </div>
         </div>
     </div>
-    <div class="row">
+    <div class="row" style="margin-bottom: 0px;">
         <div class="col s12">
             <ul class="tabs">
                 <li class="tab col s1"><a class="black-text tab-active" (click)="changeTab($event)" href="#test1">OVERVIEW</a></li>
@@ -69,6 +69,5 @@
                 <li class="tab col s2"><a class="black-text tab-deactivated" (click)="changeTab($event)" href="#test5">CUSTOMER FEEDBACK</a></li>
             </ul>
         </div>
-        <ng-content select="selector"></ng-content>
     </div>
 </div>

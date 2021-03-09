@@ -15,12 +15,14 @@ export class UserInfoComponent implements OnInit {
 
 
   changeTab(event: any) {
-    if (event.srcElement.tagName == "A"){
+    if (event.srcElement.tagName == "A" || event.srcElement.tagName == "LI"){
       let activeTab = Array.from(document.getElementsByClassName('tab-active') as HTMLCollectionOf<HTMLElement>)
       activeTab.forEach(element => {
         element.classList.remove("tab-active");
+        element.classList.add("tab-deactivated");
       });
       event.srcElement.classList.add("tab-active")
+      event.srcElement.classList.remove("tab-deactivated")
 
     }
   }

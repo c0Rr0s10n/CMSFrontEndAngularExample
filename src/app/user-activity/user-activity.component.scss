@@ -43,3 +43,14 @@ body {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
+
+.gradient-back {
+    background-color: darken($color: purple, $amount: 4);
+    background-image: linear-gradient(darken($color: purple, $amount: 4), darken($color: orange, $amount: 3));
+    background: darken($color: purple, $amount: 4);
+    background: linear-gradient(darken($color: purple, $amount: 4), darken($color: orange, $amount: 3));
+}
+
+.turnover-text {
+    text-shadow: 0px 0px 8px black;
+}

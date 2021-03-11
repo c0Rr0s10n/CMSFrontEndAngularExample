@@ -6,11 +6,7 @@ body {
     border-radius: 5px;
     background-color: white;
     height: 276px;
-    margin: 20px;
-}
-
-.hold-elem {
-    margin-top: 20px;
+    margin: 0px 65px;
 }
 
 .sm-elem {
@@ -57,4 +53,32 @@ body {
 
 .additional-fields {
     height: 100px;
+}
+
+.elem-handler {
+    padding: 30px;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+
+.additional-counters-row {
+    height: 125px;
+    padding: 0px 30px;
+}
+
+.additional-counter {
+    margin: 0px;
+    position: relative;
+    background-color: white;
+    height: 100%;
+    border-radius: 5px;
+    margin: 0px 65px 0px 0px;
+}
+
+.additional-counter-text {
+    font-weight: 750;
+}
+
+.additional-counter-value {
+    font-weight: 800;
 }

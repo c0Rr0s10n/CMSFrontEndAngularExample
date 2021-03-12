@@ -1,13 +1,21 @@
 .activity {
-    padding: 0px 30px;
+    padding: 0px 20px;
+    margin: 0%;
+    padding: 0%;
 }
 
 .activity-header {
     font-weight: 600;
     font-size: 20px;
+    margin: 0%;
+    padding: 0%;
 }
 
 .activity-card {
-    background-color: white;
-    height: 120px;
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    background-color: red;
+    height: 50px;
+    width: 100%;
 }

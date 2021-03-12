@@ -6,6 +6,7 @@ import { HeaderComponent } from './header/header.component';
 import { TopPanelComponent } from './top-panel/top-panel.component';
 import { UserInfoComponent } from './user-info/user-info.component';
 import { UserActivityComponent } from './user-activity/user-activity.component';
+import { ActivityListComponent } from './activity-list/activity-list.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { UserActivityComponent } from './user-activity/user-activity.component';
     TopPanelComponent,
     UserInfoComponent,
     UserActivityComponent,
+    ActivityListComponent,
   ],
   imports: [
     BrowserModule

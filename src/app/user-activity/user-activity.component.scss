@@ -13,10 +13,11 @@ body {
     border-radius: 5px;
     background-color: white;
     height: 128px;
+    margin: 0%;
+    padding: 0%;
 }
 
 .sm-elem-down {
-    // margin: 20px;
     margin-top: 20px;
 }
 
@@ -38,10 +39,13 @@ body {
 .sm-elem-icon-holder {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
+    padding: 0%;
+    margin: 0%;
 }
 
 .hold-elem {
     margin-top: 10px;
+    // padding: 1vw;
 }
 
 .gradient-back {
@@ -90,4 +94,8 @@ body {
 .row-element {
     margin: 0%;
     padding: 1vw;
+}
+
+.grouping-element {
+    padding: 1.1vw 3vw;
 }

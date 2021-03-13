@@ -6,7 +6,7 @@ body {
     border-radius: 5px;
     background-color: white;
     height: 276px;
-    margin: 1vw 3.35vw;
+    // margin: 1vw 3.35vw;
 }
 
 .sm-elem {
@@ -16,7 +16,7 @@ body {
 }
 
 .sm-elem-down {
-    margin: 20px;
+    // margin: 20px;
     margin-top: 20px;
 }
 
@@ -40,6 +40,10 @@ body {
     border-bottom-left-radius: 5px;
 }
 
+.hold-elem {
+    margin-top: 10px;
+}
+
 .gradient-back {
     background-color: darken($color: purple, $amount: 4);
     background-image: linear-gradient(darken($color: purple, $amount: 4), darken($color: orange, $amount: 3));
@@ -56,14 +60,14 @@ body {
 }
 
 .elem-handler {
-    padding: 20px;
+    padding: 1vw;
     margin-bottom: 0%;
     padding-bottom: 0%;
 }
 
 .additional-counters-row {
     height: 125px;
-    padding: 0px 20px;
+    padding: 0px 1vw;
     margin-bottom: 0px;
 }
 
@@ -73,7 +77,6 @@ body {
     background-color: white;
     height: 100%;
     border-radius: 5px;
-    margin: 0px 3.35vw 0px 0px;
 }
 
 .additional-counter-text {
@@ -82,4 +85,9 @@ body {
 
 .additional-counter-value {
     font-weight: 800;
+}
+
+.row-element {
+    margin: 0%;
+    padding: 1vw;
 }

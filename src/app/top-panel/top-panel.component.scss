@@ -1,75 +1,65 @@
 .nav-breadc {
-  margin: 0% 0% 0% 0%;
-  border-bottom: 3px solid rgb(246, 246, 246);
+    margin: 0% 0% 0% 0%;
+    border-bottom: 3px solid rgb(246, 246, 246);
 }
 
 .brdcrmb {
-  color: black;
+    color: black;
 }
 
 .brdcrmb-grey {
-  color: rgb(209, 209, 209);
+    color: rgb(209, 209, 209);
 }
 
 .brdcrmb:before {
-  color: black;
+    color: black;
 }
 
 .active-crumb {
-  color: purple;
+    color: purple;
 }
 
-
 input:focus {
-  border-bottom: none!important;
-  box-shadow: none!important;
-  color: rgb(173, 173, 173);
+    border-bottom: none!important;
+    box-shadow: none!important;
+    color: rgb(173, 173, 173);
 }
 
 .search-field {
-  border: 1px solid  rgb(209, 209, 209);
-  border-radius: 5px;
-  height: 40px;
-  margin-top: 10px;
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 5px;
+    height: 40px;
+    margin-top: 10px;
 }
 
 .additional-icon {
-  margin-left: 25px;
+    margin-left: 25px;
 }
-
-// .notification-badge {
-//   position: relative;
-//   right: 5px;
-//   top: -20px;
-//   background-color: #f5f1f2;
-//   background-color: #cc002c;
-//   margin: 0 -.8em;
-//   border-radius: 50%;
-//   padding: 2px 2px;
-// }
 
 .notification-badge {
-  position:relative;
-  padding:1px 6px;
-  background-color: #f32a56;
-  color: #fff;
-  bottom: 12px;
-  left: 12px;
-  border-radius: 50%;
-  font-size: 12px;
+    position: relative;
+    padding: 1px 6px;
+    background-color: #f32a56;
+    color: #fff;
+    bottom: 12px;
+    left: 12px;
+    border-radius: 50%;
+    font-size: 12px;
 }
 
-.notif{
-  position: absolute;
+.notif {
+    position: absolute;
 }
-
 
 .no-hover {
-  color: black;
+    color: black;
 }
 
 .no-hover:hover {
-  background-color: transparent;
+    background-color: transparent;
 }
 
-
+.small-nav {
+    width: 100%;
+    cursor: pointer;
+}

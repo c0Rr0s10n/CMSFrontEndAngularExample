@@ -23,6 +23,7 @@
     position: absolute;
     color: purple;
     margin-top: 17px;
+    display: block;
 }
 
 input {
@@ -49,7 +50,11 @@ input:focus {
 .quote-button {
     font-weight: 600;
     color: rgb(253, 194, 0);
+    font-size: 1em;
     text-replace: color 0.5s background-color 0.5s;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .social-icon {
